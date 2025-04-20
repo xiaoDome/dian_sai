@@ -20,7 +20,7 @@ void setup() {
   analogWrite(FAN, 100);
 
   //调试串口初始化
-  USBSerial.begin(115200);
+  21USBSerial.begin(115200);
 
   //树莓派串口初始化
   Serial.begin(115200);

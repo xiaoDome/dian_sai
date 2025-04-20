@@ -12,19 +12,19 @@ void setup() {
   delay(100);
   Chassis_Enable(true);
   delay(2000);  
-  Chassis_Incremental_Position(300,0,0);
+  Chassis_Incremental_Position(0,200,0);
   delay(200);
-  Chassis_Incremental_Position(300,0,0);  
-  delay(200);
-  Chassis_Incremental_Position(300,0,0);  
-  delay(200);  
-  Chassis_Incremental_Position(0,0,360);
-  delay(200);  
-  Chassis_Incremental_Position(300,0,0);
-  delay(200);  
-  Chassis_Incremental_Position(300,0,0);  
-  delay(200);  
-  Chassis_Incremental_Position(300,0,0);  
+  // Chassis_Incremental_Position(300,0,0);  
+  // delay(200);
+  // Chassis_Incremental_Position(300,0,0);  
+  // delay(200);  
+  // Chassis_Incremental_Position(0,0,360);
+  // delay(200);  
+  // Chassis_Incremental_Position(300,0,0);
+  // delay(200);  
+  // Chassis_Incremental_Position(300,0,0);  
+  // delay(200);  
+  // Chassis_Incremental_Position(300,0,0);  
 
 }
 

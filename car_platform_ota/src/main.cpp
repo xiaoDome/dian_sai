@@ -118,9 +118,9 @@ void setup() {
   
   delay(100);
   Chassis_Enable(true);
-  delay(2000);  
-  Chassis_Incremental_Position(300,300,0);
-  delay(200);
+  // delay(2000);  
+  // Chassis_Incremental_Position(300,300,0);
+  // delay(200);
   // Chassis_Incremental_Position(300,0,0);  
   // delay(200);
   // Chassis_Incremental_Position(300,0,0);  
